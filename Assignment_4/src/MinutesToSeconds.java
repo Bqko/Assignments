@@ -5,11 +5,14 @@ public class MinutesToSeconds {
 
         Scanner scanner = new Scanner(System.in);
 
+        // prints out the message to type the number of minutes
         System.out.print("Enter the number of minutes: ");
         int minute = scanner.nextInt();
-
+        
+        // Converts minutes to seconds
         int result = minute * 60;
 
+        //prints out the result
         System.out.println("The number of seconds is: " + result);
 
         scanner.close();
