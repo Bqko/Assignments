@@ -6,10 +6,10 @@ public class MathOperations {
         Scanner scanner = new Scanner(System.in);
         
         // Asks user to enter two numbers
-        System.out.println("Enter first number: ");
+        System.out.print("Enter first number: ");
         double num1 = scanner.nextDouble();
 
-        System.out.println("Enter Second number: ");
+        System.out.print("Enter Second number: ");
         double num2 = scanner.nextDouble();
         
         // Perform Arithmetic operations
