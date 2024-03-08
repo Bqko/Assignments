@@ -4,18 +4,21 @@ public class MathOperations {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-
+        
+        // Asks user to enter two numbers
         System.out.println("Enter first number: ");
         double num1 = scanner.nextDouble();
 
         System.out.println("Enter Second number: ");
         double num2 = scanner.nextDouble();
-
+        
+        // Perform Arithmetic operations
         double sum = num1 + num2;
         double difference = num1 - num2;
         double product = num1 * num2;
         double quotient = num1 / num2;
 
+        // Print out the results
         System.out.println("Sum: " + sum);
         System.out.println("Difference: " + difference);
         System.out.println("Product: " + product);
